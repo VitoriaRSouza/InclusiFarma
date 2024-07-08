@@ -1,0 +1,161 @@
+* {
+    background-color: #dcdcdc;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px auto;
+}
+
+#search-box {
+    flex: 1;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#barcode-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #246d64;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#back-button {
+    display:flex;
+    margin-top: 0px;
+    margin-left: 15px;
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: #246d64;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#back-button:hover {
+    background-color: #42cab8;
+    transition: 0.2s;
+    transform: scale(110%);
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+header img {
+    height: 100px;
+    background-color: #fff;
+}
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.filters h3 {
+    margin-top: 0px;
+}
+
+.filters label {
+    margin-top: 2px;
+    margin-left: 20px;
+}
+
+.filters input {
+    margin-bottom: 20px;
+}
+
+
+.medication-list {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.medication-list h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.medication-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.medication-list th, .medication-list td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.medication-list th {
+    background-color: #246d64;
+    color: #ffffff;
+}
+
+.farmas {
+    display: flex;
+    align-items: center;
+}
+
+#busque-tbm {
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.farmacias-parceiras {
+    display: flex;
+}
+
+.farma-parceiras {
+    margin-right: 10px;
+}
+
+.farmacias-parceiras button {
+    display:flex;
+    margin-top: 0px;
+    margin-left: 15px;
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: #246d64;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.farmacias-parceiras button:hover{
+    background-color: #42cab8;
+    transition: 0.2s;
+    transform: scale(110%);
+}

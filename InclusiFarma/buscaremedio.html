@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InclusiFarma SP</title>
+    <link rel="stylesheet" href="busca.css">
+</head>
+<body>
+    <header>
+        <button id="back-button" onclick="window.location.href = 'index.html';">Voltar</button>
+        <img src="./src/imagens/InclusiFarma.png" alt="Header Image">
+    </header>
+
+    <div id="search-container">
+        <input type="text" id="search-box" value="Dipirona" placeholder="Digite aqui o nome da medicação ou digite o código de barras">
+        <button id="barcode-button">Buscar medicação</button>
+        <button id="barcode-button">Escanear código de barras</button>
+    </div>
+    
+    <div class="filters">
+        <h3>Filtros:</h3>
+        <label for="filter1">Medicações Controladas</label>
+        <input type="checkbox" id="filter1">
+        <label for="filter2">Pressão arterial</label>
+        <input type="checkbox" id="filter2">
+        <label for="filter3">Diabetes</label>
+        <input type="checkbox" id="filter3">
+    </div>
+
+    <div class="medication-list">
+        <h3>Lista de Medicações Disponíveis</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome do Remédio</th>
+                    <th>Quantidade Disponível</th>
+                    <th>Endereço da Unidade de Saúde</th>
+                    <th>Categoria do Remédio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dipirona</td>
+                    <td>234</td>
+                    <td>Rua A, 123</td>
+                    <td>Analgésico</td>
+                </tr>
+                <tr>
+                    <td>Dipirona</td>
+                    <td>30</td>
+                    <td>Rua B, 456</td>
+                    <td>Analgésico</td>
+                </tr>
+                <tr>
+                    <td>Dipirona</td>
+                    <td>450</td>
+                    <td>Rua C, 100</td>
+                    <td>Analgésico</td>
+                </tr>
+                <tr>
+                    <td>Dipirona</td>
+                    <td>75</td>
+                    <td>Rua D, 999</td>
+                    <td>Analgésico</td>
+                </tr>
+                <tr>
+                    <td>Dipirona</td>
+                    <td>98</td>
+                    <td>Rua E, 777</td>
+                    <td>Analgésico</td>
+                </tr>
+                <tr>
+                    <td>Dipirona</td>
+                    <td>310</td>
+                    <td>Rua F, 5345</td>
+                    <td>Analgésico</td>
+                </tr>
+                <tr>
+                    <td>Dipirona</td>
+                    <td>530</td>
+                    <td>Rua G, 1002</td>
+                    <td>Analgésico</td>
+                </tr>
+                <tr>
+                    <td>Dipirona</td>
+                    <td>300</td>
+                    <td>Rua H, 320</td>
+                    <td>Analgésico</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="farmas">
+        <h1 id="busque-tbm">Busque também nas fármacias parceiras: </h1>
+        <div class="farmacias-parceiras">
+            <button class="farma-parceiras" onclick="window.location.href = 'https://www.drogaraia.com.br/search?w=dipirona';">Droga Raia</button>
+            <button class="farma-parceiras" onclick="window.location.href = 'https://www.drogasil.com.br/search?w=dipirona';">Drogasil</button>
+        </div>
+    </div>
+</body>
+</html>
